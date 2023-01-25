@@ -11,6 +11,14 @@ const Navbar = () => {
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="logo">LowPrice</span>
         </Link>
+
+         <div className="navItems">
+          <button className="navButton" style={{borderRadius:"20px"}}>
+              <NavLink to="/"></NavLink>
+            Admin</button>
+
+          </div>
+          
           <div className="navItems">
             <button className="navButton" style={{borderRadius:"20px"}}>
               <NavLink
